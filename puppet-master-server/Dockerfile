@@ -28,10 +28,6 @@ RUN apt-get install nano
 
 RUN apt-get install -y puppetmaster
 
-#install puppetmaster
-
-RUN apt-get install puppetmaster
-
 #Expose puppetmaster port 8140 to network
 
 EXPOSE 8140
